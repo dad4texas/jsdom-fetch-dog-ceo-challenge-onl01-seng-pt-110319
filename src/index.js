@@ -18,7 +18,7 @@ function addImageElements(json) {
     let newImageElem = document.createElement('img');
     newImageElem.src = image;
     imagesDiv.appendChild(newImageElem);
-  });   
+  });
 }
 
 function getDogBreeds() {
